@@ -132,9 +132,19 @@
       z-index: 9999;
     }
 
+    .my-background-div {
+    /* background-image: url('./cat/azul.png'); */
+    background-color: rgb(214 242 255);
+    margin: 50px; 
+    border-radius: 50px;
+  }
+  
+
   </style>
 </head>
 <body>
+  <div class="my-background-div">
+
   <div class="container">
     <h1>Cat Image Generator 😊</h1>
     <p>Hold enter for a large dose of pics</p>
@@ -340,5 +350,6 @@ const observer = new IntersectionObserver((entries, obs) => {
       }
     });
   </script>
+  </div>
 </body>
 </html>
